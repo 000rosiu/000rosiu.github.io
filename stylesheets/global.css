@@ -1,0 +1,78 @@
+.body-transition {
+    transition: all 0.2s ease-in-out;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: "JetBrains Mono", bold;
+}
+
+a:link {
+    font-family: "JetBrains Mono", serif;
+    color: white;
+}
+
+p {
+    font-size: 12px;
+    font-family: "JetBrains Mono", serif;
+}
+
+a:visited {
+    font-family: "JetBrains Mono", serif;
+    color: white;
+}
+
+a:hover {
+    font-family: "JetBrains Mono", serif;
+    color: #6557C2;
+}
+
+a:active {
+    font-family: "JetBrains Mono", serif;
+    color: white;
+}
+
+#logo {
+    height: 100px;
+    width: 400px;
+}
+
+#logosmall {
+    height: 100px;
+    width: 400px;
+}
+
+.description {
+    font-size: 15px;
+    font-family: "JetBrains Mono", serif;
+}
+
+#icon-container {
+    font-size: 0;
+}
+
+#icon-info {
+    margin-top: 15px;
+    font-size: 15px;
+    font-family: "JetBrains Mono", serif;
+    font-weight: bold;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    transition: transform .2s;
+    margin: 10px;
+}
+
+.logo:hover {
+    transform: scale(1.2);
+}
+.hidden {
+    display: none;
+}
